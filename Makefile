@@ -1,7 +1,7 @@
 OWNER=malinskiy
 IMAGE_NAME=cron-curl-jq-alpine
 VCS_REF=`git rev-parse --short HEAD`
-IMAGE_VERSION=1.0.0
+IMAGE_VERSION=1.0.1
 QNAME=$(OWNER)/$(IMAGE_NAME)
 GIT_TAG=$(QNAME):$(VCS_REF)
 BUILD_TAG=$(QNAME):$(IMAGE_VERSION)
